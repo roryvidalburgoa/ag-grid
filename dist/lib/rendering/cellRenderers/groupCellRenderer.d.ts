@@ -51,4 +51,5 @@ export declare class GroupCellRenderer extends Component implements ICellRendere
     private setupDragOpenParents();
     onExpandOrContract(): void;
     private showExpandAndContractIcons();
+    refresh?(params: any): void;
 }
